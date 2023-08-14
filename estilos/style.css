@@ -7,3 +7,60 @@ Bege claro: #D9A384
 Branco: #F2F2F2 
 Preto: #0D0D0D
 */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --bege-escuro: #594032;
+    --bege-medio: #A6785D;
+    --bege-claro: #D9A384;
+}
+
+body, main {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+section#login {
+    width: 50%;
+    margin: 30px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.341);
+    border-radius: 20px;
+}
+
+div#imagem {
+    width: 100%;
+    height: 150px;
+    background-image: url(../imagens/imagem.jpg);
+    background-size: cover;
+    background-position: right;
+    border-radius: 20px 20px 0px 0px;
+}
+
+div#formulario {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    font-weight: light;
+}
+
+span {
+    color: white;
+    background-color: var(--bege-escuro);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0px 1px 5px
+}
+
+input {
+    height: 20px;
+    padding: 10px;
+    padding-bottom: -10px;
+}
