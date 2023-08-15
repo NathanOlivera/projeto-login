@@ -20,15 +20,20 @@ Preto: #0D0D0D
 }
 
 body, main {
+    position: relative;
     height: 100vh;
     width: 100vw;
     background-color: white;
 }
 
 section#login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
     width: 50%;
-    margin: 30px;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.341);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.341);
     border-radius: 20px;
 }
 
@@ -42,6 +47,7 @@ div#imagem {
 }
 
 div#formulario {
+    padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -51,7 +57,61 @@ h1 {
     font-weight: light;
 }
 
-span {
+input {
+    border: 0px;
+}
+
+.data {
+    position: relative;
+    width: 95%;
+    height: 50px;
+    margin: auto;
+    margin-bottom: -15px;
+    border-radius: 10px;
+    background-color: var(--bege-medio);
+}
+
+.data input {
+    position: absolute;
+    left: 44px;
+    top: 2px;
+    height: 46px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #ffc09caf;
+}
+
+.data input:focus {
+    background-color: white;
+}
+
+.data span {
+    position: absolute;
+    left: 4px;
+    top: 3px;
+    color: white;
+    font-size: 40px;
+}
+
+#but1 {
+    text-align: center;
+    width: 95%;
+    margin-bottom: 2px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--bege-claro);
+}
+
+#but2 {
+    width: 95%;
+    margin-bottom: 5px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid var(--bege-claro);
+
+}
+
+/*span {
     color: white;
     background-color: var(--bege-escuro);
     padding: 10px;
@@ -63,4 +123,4 @@ input {
     height: 20px;
     padding: 10px;
     padding-bottom: -10px;
-}
+}*/
