@@ -72,11 +72,12 @@ input {
 }
 
 .data input {
+    padding: 0px;
     position: absolute;
     left: 46px;
     top: 2px;
     height: 46px;
-    width: 85%;
+    width: 80%;
     border-radius: 10px;
     background-color: #ffc09caf;
 }
