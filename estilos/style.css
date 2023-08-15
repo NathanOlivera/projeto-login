@@ -14,16 +14,18 @@ Preto: #0D0D0D
 }
 
 :root {
-    --bege-escuro: #594032;
-    --bege-medio: #A6785D;
-    --bege-claro: #D9A384;
+    --cor1: #C1C7D9;
+    --cor2: #9ABBD9;
+    --cor3: #3D6373;
+    --cor4: #D99518;
+    --cor5: #BF6D65;
 }
 
 body, main {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: white;
+    background-color: var(--cor1);
 }
 
 section#login {
@@ -68,7 +70,7 @@ input {
     margin: auto;
     margin-bottom: -15px;
     border-radius: 10px;
-    background-color: var(--bege-medio);
+    background-color: var(--cor3);
 }
 
 .data input {
@@ -79,7 +81,7 @@ input {
     height: 46px;
     width: 80%;
     border-radius: 10px;
-    background-color: #ffc09caf;
+    background-color: var(--cor2);
 }
 
 .data input:focus {
@@ -100,7 +102,7 @@ input {
     margin-bottom: 2px;
     height: 40px;
     border-radius: 10px;
-    background-color: var(--bege-claro);
+    background-color: var(--cor2);
 }
 
 #but2 {
@@ -108,7 +110,7 @@ input {
     margin-bottom: 5px;
     height: 40px;
     border-radius: 10px;
-    border: 2px solid var(--bege-claro);
+    border: 2px solid var(--cor3);
 
 }
 
