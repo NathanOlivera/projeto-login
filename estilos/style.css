@@ -32,7 +32,7 @@ section#login {
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 50%;
+    width: 70%;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.341);
     border-radius: 20px;
 }
@@ -73,10 +73,10 @@ input {
 
 .data input {
     position: absolute;
-    left: 44px;
+    left: 46px;
     top: 2px;
     height: 46px;
-    width: 80%;
+    width: 85%;
     border-radius: 10px;
     background-color: #ffc09caf;
 }
