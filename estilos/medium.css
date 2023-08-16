@@ -1,0 +1,14 @@
+@charset 'UTF-8';
+
+section {
+    display: flex;
+}
+
+div#imagem {
+    height: 332px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.data input {
+    width: 85%;
+}
